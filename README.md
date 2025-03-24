@@ -16,62 +16,8 @@ A modular software-defined radio (SDR) signal processing pipeline built around a
 ## Directory Structure
 
 ```text
-yagi-sdr-signal-lab/
-├── .env.example
-├── .flake8
-├── .gitignore
-├── Makefile
-├── pyproject.toml
-├── README.md
-│
-├── docs/
-│   ├── architecture_diagram.png
-│   ├── signal_pipeline.md
-│   ├── math_cheat_sheet.pdf
-│
-├── hardware/
-│   ├── yagi_design.md
-│   ├── 3d_print_standoff.stl
-│   ├── antenna_layout.svg
-│
-├── data/
-│   ├── raw_samples/
-│   ├── decoded_bitstreams/
-│
-├── python/
-│   ├── main.py
-│   ├── plot_fft.py
-│   ├── demod_fm.py
-│   ├── decode_packets.py
-│   ├── capture_samples.py
-│   ├── analysis/
-│   │   ├── constellation.py
-│   │   └── waterfall.py
-│   ├── utils/
-│   │   ├── io.py
-│   │   └── dsp_wrappers.py
-│
-├── cpp/
-│   ├── CMakeLists.txt
-│   ├── include/
-│   │   ├── dsp.hpp
-│   │   ├── demod.hpp
-│   │   └── utils.hpp
-│   ├── src/
-│   │   ├── dsp.cpp
-│   │   ├── demod.cpp
-│   │   └── main.cpp
-│   └── swig/
-│       ├── dsp.i
-│       └── build_swig.sh
-│
-├── tests/
-│   ├── test_cpp/
-│   │   └── test_filters.cpp
-│   ├── test_python/
-│   │   └── test_demod.py
-│
-├── requirements.txt
+    
+
 
 
 
