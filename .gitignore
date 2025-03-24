@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.env
+.env.*
+
+# C++
+*.o
+*.a
+*.out
+*.exe
+*.dSYM/
+build/
+*.log
+cpp/swig/*.so
+cpp/swig/*.o
+cpp/swig/*.py
+cpp/swig/*.cxx
+
+# Jupyter notebooks (if added later)
+.ipynb_checkpoints/
+
+# VSCode or JetBrains configs
+.vscode/
+.idea/
