@@ -14,7 +14,7 @@ A modular software-defined radio (SDR) signal processing pipeline built around a
 ---
 
 ## Directory Structure
-
+```text
 yagi-sdr-signal-lab/
 ├── .env.example
 ├── .flake8
